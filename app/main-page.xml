@@ -1,0 +1,8 @@
+<Page class="main-page" xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+    <GridLayout rows="*, *, *" columns="*">
+        <StackLayout row="1">
+            <!-- <Label text="Plan Your Perfect Trip Today"/> -->
+            <Image src="~/img/Tour App Logo.png" stretch="aspectFit" tap="onStart" />
+        </StackLayout>
+    </GridLayout>
+</Page>

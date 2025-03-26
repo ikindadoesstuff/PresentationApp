@@ -1,0 +1,13 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+    <ActionBar flat="true" title="Gallery">
+        <Label text="Paradise Awaits" />
+    </ActionBar>
+    <ListView items="{{ destinationsObservable }}" class="destination-list">
+        <ListView.itemTemplate class="destination-item">
+            <StackLayout>
+                <Label class="destination-name" text="{{ name }}"/>
+                <Image class="thumbnail" src="{{ pictures[0] }}" stretch="aspectFill" tap="onImageTap" />
+            </StackLayout>
+        </ListView.itemTemplate>
+    </ListView>
+</Page>

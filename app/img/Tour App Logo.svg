@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 421.35 336.82">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00a14a;
+        font-family: GillSans-UltraBold, 'Gill Sans Ultra Bold';
+        font-size: 65.65px;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #00a14b;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #51463c;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-3" d="M163.02,198.5c6.29-32.69-33.82-95.68-31.45-96.87,2.33-1.17,12.43,25.97,40.69,48.82,10.22,8.26,20.02,13.74,27.47,17.32"/>
+    <path class="cls-2" d="M123.63,94.55c-51.22,10.54-18.33,60.03-18.33,60.03"/>
+    <path class="cls-2" d="M117.09,86.71c-49.26-16.4-52.07,41.16-52.07,41.16"/>
+    <path class="cls-2" d="M138.55,102.69c39.09-31.48,65.3,21.12,65.3,21.12"/>
+    <path class="cls-2" d="M129.13,95.2c3.07-47.03,62.97-26.19,62.97-26.19"/>
+    <path class="cls-2" d="M121.51,85.95c-31.03-37.5,9.89-35.04,9.89-35.04"/>
+  </g>
+  <text class="cls-1" transform="translate(0 209.3)"><tspan x="0" y="0">Un</tspan><tspan x="0" y="50.6">Belizeably</tspan><tspan x="0" y="101.21">Fun</tspan></text>
+</svg>
