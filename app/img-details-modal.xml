@@ -5,19 +5,19 @@
             <Image class="modal-image" src="{{ image }}" stretch="aspectFill" />
             <TextView class="description" text="{{ description }}" editable="false" />
             <Label text="Who's going?"/>
-            <GridLayout id="adults" columns="3*, 2*, *, 2*" row="150">
-                <Label text="{{ 'Adults:' + adultPrice }}" col="0" row="0"/>
-                <Button id="subtract" text="-" col="1" row="0" tap="onCalculate"/>
+            <GridLayout class="people" id="adults" columns="3*, 2*, *, 2*" row="150">
+                <Label text="{{ 'Adults: $' + adultPrice }}" col="0" row="0"/>
+                <Button class="add-subtract-button" id="subtract" text="-" col="1" row="0" tap="onCalculate"/>
                 <Label text="{{ booking.adults }}" textAlignment="center" col="2" row="0"/>
-                <Button id="add" text="+" col="3" row="0" tap="onCalculate"/>
+                <Button class="add-subtract-button" id="add" text="+" col="3" row="0" tap="onCalculate"/>
             </GridLayout>
-            <GridLayout id="children" columns="3*, 2*, *, 2*" row="150" visibility="{{ adultOnly ? 'collapse' : 'visible' }}">
-                <Label text="{{ 'Children:' + childPrice }}" col="0" row="0"/>
-                <Button id="subtract" text="-" col="1" row="0" tap="onCalculate"/>
+            <GridLayout class="people" id="children" columns="3*, 2*, *, 2*" row="150" visibility="{{ adultOnly ? 'collapse' : 'visible' }}">
+                <Label text="{{ 'Children: $' + childPrice }}" col="0" row="0"/>
+                <Button class="add-subtract-button" id="subtract" text="-" col="1" row="0" tap="onCalculate"/>
                 <Label text="{{ booking.children }}" textAlignment="center" col="2" row="0"/>
-                <Button id="add" text="+" col="3" row="0" tap="onCalculate"/>
+                <Button class="add-subtract-button" id="add" text="+" col="3" row="0" tap="onCalculate"/>
             </GridLayout>
-            <Label text="{{ 'Total: ' + booking.total }}"/>
+            <Label text="{{ 'Total: $' + booking.total }}"/>
             <Button text="Send Booking Details" tap="onSendEmail" />
             <Button text="Close" tap="onCloseModal" />
         </StackLayout>

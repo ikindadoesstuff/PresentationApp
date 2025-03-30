@@ -1,6 +1,6 @@
 import { EventData, Page, View, ShownModallyData, fromObject, Button } from '@nativescript/core'
 import * as Email from '@nativescript/email'
-import { MainViewModel, Booking} from './main-view-model'
+import { Booking} from './main-view-model'
 
 let booking: Booking;
 let page: Page;
